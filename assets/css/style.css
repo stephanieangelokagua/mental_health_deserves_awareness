@@ -1,0 +1,18 @@
+
+
+/*Navbar Styles*/
+
+.navbar{
+    background-color: #d9ffff;
+}
+
+#navbar .nav-link{
+    color: #9a312f;
+    text-transform: uppercase;
+    text-underline-offset: 4px; /* add space between text and undeline*/
+}
+
+.navbar-nav .nav-link.active{
+    text-decoration: underline;
+}
+
