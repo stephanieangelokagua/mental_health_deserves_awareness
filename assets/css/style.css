@@ -3,7 +3,7 @@
 
 /*Navbar Styles*/
 
-.navbar{
+.navbar, #socialmedia{
     background-color: #d9ffff;
 }
 
@@ -17,3 +17,14 @@
     text-decoration: underline;
 }
 
+#signs .card{
+    border-style: none;
+}
+
+#signs .card-body {
+    padding: 1rem 1rem 1rem 0;
+}
+
+.sharp-corners, .sharp-corners*{
+    border-radius: 0%;
+}
