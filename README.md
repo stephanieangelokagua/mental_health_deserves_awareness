@@ -22,13 +22,22 @@ Here is where we write a few user stories. Example:
 Here we discuss the design in terms of:
 
 - colour palette (use Coolors image or link)
+
+The color scheme of the webpage is inspired from an image. I used Coolors to extract the colors from my chosen image and then played around with its automatic pallete generator to get the remaining colors needed. I made sure to use a color pallete that was ideal for the nature of the topic
 - typography (show what typeface and why you choose it)
+
+For this project, I used Foto sans for header text and Roboto for body text. Due to the nature of the project it was important to use a font that was calm and easy to read to encourage users to progress through the webpage's content. I used google fonts and set the filter to calm and then based on preferenc selected by desired font for my header text. 
 - Imagery
+
+Images are an important component of this website because different users have different needs. For instance, some users learn best using images whilst others learn through text. I  integrated both of this into the webpage and used Pexels and Open AI to generate the images. 
+
 - Features (general site features, like sections and pages that fulfil teh user stories/requirements)
 
 ## Languages, Tools & Technologies Used
 
 A list of stuff you used (Git, Github, HTML, CSS and anything else)
+
+
 
 ## Media Copyrights
 
