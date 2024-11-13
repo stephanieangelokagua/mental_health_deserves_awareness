@@ -7,19 +7,25 @@
     --primary-color: #9a312f;
 }
 /*General Styles*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,#navbar .nav-link{
+    color: var(--primary-color);
+}
 
 /*Navbar Styles*/
-
 .navbar,
 #socialmedia {
     background-color: var(--secondary-color);
 }
 
-#navbar .nav-link {
-    color: var(--primary-color);
+#navbar .nav-link {  
     text-transform: uppercase;
+    /* add space between text and undeline */
     text-underline-offset: 4px;
-    /* add space between text and undeline*/
+    
 }
 
 .navbar-nav .nav-link.active {
