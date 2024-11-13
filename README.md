@@ -2,6 +2,8 @@
 
 ## Project Heading
 
+Mental Health Deserves Awareness is a website focused on teaching everyone about Mental Health. Personally, I believe being aware of 
+
 Here we write a snappy couple of sentences about our project
 
 ## Screenshot
@@ -21,23 +23,40 @@ Here is where we write a few user stories. Example:
 
 Here we discuss the design in terms of:
 
-- colour palette (use Coolors image or link)
+### Colour palette
 
 The color scheme of the webpage is inspired from an image. I used Coolors to extract the colors from my chosen image and then played around with its automatic pallete generator to get the remaining colors needed. I made sure to use a color pallete that was ideal for the nature of the topic
-- typography (show what typeface and why you choose it)
 
-For this project, I used Foto sans for header text and Roboto for body text. Due to the nature of the project it was important to use a font that was calm and easy to read to encourage users to progress through the webpage's content. I used google fonts and set the filter to calm and then based on preferenc selected by desired font for my header text. 
-- Imagery
+![Coolors pallete](assets/images/pallette.png)
+https://coolors.co/palette/c8a398-8d2e29-daffff-b76d66-f9d8c0
 
-Images are an important component of this website because different users have different needs. For instance, some users learn best using images whilst others learn through text. I  integrated both of this into the webpage and used Pexels and Open AI to generate the images. 
+### Typography 
+
+For this project, I used Foto sans for header text and Roboto for body text. Due to the nature of the project it was important to use a font that was calm and easy to read to encourage users to progress through the webpage's content. I used google fonts and set the filter to calm and then based on preference selected by desired font for my header text and a suitable supporting body font. 
+
+![Filter fonts](assets/images/font.png)
+
+### Imagery
+
+Images are an important component of this website because different users have different needs. For instance, some users learn best using images whilst others learn through text. I  integrated both of this into the webpage and used Pexels and Open AI to generate the images. I used images from Pexels for my Carouesel images and Open AI images generated using DALL-E for my other sections. 
 
 - Features (general site features, like sections and pages that fulfil teh user stories/requirements)
 
 ## Languages, Tools & Technologies Used
 
-A list of stuff you used (Git, Github, HTML, CSS and anything else)
-
-
+- Git - version control
+- Github - deployment and project management
+- HTML 
+- CSS
+- Bootstrap
+- Fontawesome
+- Open AI
+- VS code
+- Beautify formatter extension
+- Pexels
+- Favicon.io
+- Google fonts
+- Dev tools
 
 ## Media Copyrights
 
