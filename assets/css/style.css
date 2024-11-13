@@ -16,12 +16,12 @@ h1,h2,h3,#navbar .nav-link{
     font-family: 'Noto Sans', sans-serif;
 }
 
-/*Navbar Styles*/
 .navbar,
-#socialmedia {
+#sociallinks {
     background-color: var(--secondary-color);
 }
 
+/*Navbar Styles*/
 #navbar .nav-link {  
     text-transform: uppercase;
     /* add space between text and undeline */
@@ -33,16 +33,21 @@ h1,h2,h3,#navbar .nav-link{
     text-decoration: underline;
 }
 
+/*Footer styles*/
+#sociallinks i{
+    font-size: 20px;
+    color: var(--primary-color);
+}
 #signs .card {
     border-style: none;
 }
 
 #tips.card{
-    border-color: #f9d8c0;
+    border-color: none;
 }
 
-#resources.card{
-    border-style: none;
+#resources .card{
+    border-color: none;
 }
 
 #signs .card-body {
@@ -53,6 +58,7 @@ h1,h2,h3,#navbar .nav-link{
 .sharp-corners* {
     border-radius: 0%;
 }
+
 
 @media (min-width: 1024px) {
     .text-container {

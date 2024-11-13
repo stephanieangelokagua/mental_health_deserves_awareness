@@ -21,8 +21,6 @@ Here is where we write a few user stories. Example:
 
 ## Design
 
-Here we discuss the design in terms of:
-
 ### Colour palette
 
 The color scheme of the webpage is inspired from an image. I used Coolors to extract the colors from my chosen image and then played around with its automatic pallete generator to get the remaining colors needed. I made sure to use a color pallete that was ideal for the nature of the topic
@@ -60,7 +58,12 @@ Images are an important component of this website because different users have d
 
 ## Media Copyrights
 
-Where you got your media from
+- Photo by Madison Inouye from Pexels: https://www.pexels.com/photo/self-care-isn-t-selfish-signage-2821823/
+- Photo by Brett Sayles from Pexels: https://www.pexels.com/photo/you-are-not-alone-quote-board-on-brown-wooden-frame-2821220/
+- Photo by Brett Sayles from Pexels: https://www.pexels.com/photo/you-are-not-alone-quote-board-on-brown-wooden-frame-2821220/
+- Photo by Tara Winstead from Pexels: https://www.pexels.com/photo/illustration-of-a-head-and-butterflies-around-the-scalp-and-inside-the-brain-8849272/
+- Photo by Vie Studio from Pexels: https://www.pexels.com/photo/label-cut-out-papers-on-the-cardboard-7004950/
+- Mental Health Icon Graphic by aimagenarium · Creative Fabrica https://images.app.goo.gl/dQEaYMVJvx5PAVmX7
 
 ## Testing
 
