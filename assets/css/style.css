@@ -11,6 +11,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+#navbar img{
+    width: 80px;
+}
+
 h1,h2,h3,#navbar .nav-link{
     color: var(--primary-color);
     font-family: 'Noto Sans', sans-serif;
