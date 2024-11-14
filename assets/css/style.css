@@ -20,11 +20,6 @@ h1,h2,h3,#navbar .nav-link{
     font-family: 'Noto Sans', sans-serif;
 }
 
-.navbar,
-#sociallinks {
-    background-color: var(--secondary-color);
-}
-
 /*Navbar Styles*/
 #navbar .nav-link {  
     text-transform: uppercase;
@@ -37,6 +32,20 @@ h1,h2,h3,#navbar .nav-link{
     text-decoration: underline;
 }
 
+/* Header styles*/
+
+.button-style{
+    border-radius: 0;
+    color: white;
+}
+.call-to-action{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 5px 24px;
+    border: none;
+    border-radius: 0;
+
+}
 /*Footer styles*/
 #sociallinks i{
     font-size: 20px;
@@ -47,11 +56,11 @@ h1,h2,h3,#navbar .nav-link{
 }
 
 #tips.card{
-    border-color: none;
+    border: none;
 }
 
 #resources .card{
-    border-color: none;
+    border: none;
 }
 
 #signs .card-body {
@@ -60,9 +69,17 @@ h1,h2,h3,#navbar .nav-link{
 
 .sharp-corners,
 .sharp-corners* {
-    border-radius: 0%;
+    border-radius: 0;
 }
 
+#resources .form-control, #signs img, #tips img, #tips .card{
+    border-radius: 0;
+}
+
+.navbar,
+#sociallinks {
+    background-color: var(--secondary-color);
+}
 
 @media (min-width: 1024px) {
     .text-container {

@@ -59,8 +59,8 @@
                 <div class="column col-12">
                     <p class="lead">Take the first step in taking care of your mind today!</p>
                 </div>
-                
-                <div class="column col-md-6">
+
+                <div class="column col-md-6 mb-4">
                     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -97,7 +97,7 @@
                     </div>
                 </div>
 
-                <div class="column col-md-6">
+                <div class="column col-md-6 col-lg-4">
                     <p>Mental health is a positive concept related to the
                         social and emotional wellbeing of people and
                         communities.
@@ -110,17 +110,17 @@
                     </p>
                 </div>
 
-                <div class="column mb-3 mt-3 col-md-6">
+                <div class="column mb-3 mt-3 col-md-6 col-lg-4">
                     <p>Stay empowered on your mental wellness journey with regular insights, tips, and resources
                         delivered right to your inbox. <strong>Join our community today</strong> and take the first step
                         towards a
                         healthier, balanced mind!</p>
                 </div>
 
-                <div class="column mb-3 mt-3 col-md-6">
-                    <button type="button" class="btn btn-outline-primary sharp-corners" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">
-                        Subscribe!
+                <div class="column mb-3 mt-lg-3 col-md-6 col-lg-4">
+                    <button type="button" class="btn btn-outline-primary sharp-corners call-to-action"
+                        data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
+                        Subscribe
                     </button>
                 </div>
 
@@ -175,7 +175,7 @@
                                 relaxation techniques like deep breathing, yoga, or meditation. Explore activities that
                                 make you
                                 feel calm, from art to nature walks. </p>
-                            <a href="#" class="btn btn-outline-primary">Learn more</a>
+                            <a href="https://everymind.org.au/understanding-mental-health/mental-health/understanding-mental-health-and-wellbeing#:~:text=Defining%20mental%20health&text=The%20concept%20is%20influenced%20by,to%20set%20and%20fulfil%20goals" class="btn btn-outline-primary" target="_blank">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -193,7 +193,7 @@
                                 focus, energy, and resilience to stress. Remember, quality rest is a key foundation for
                                 a balanced,
                                 healthy life.</p>
-                            <a href="#" class="btn btn-outline-primary">Learn more</a>
+                            <a href="https://everymind.org.au/understanding-mental-health/mental-health/understanding-mental-health-and-wellbeing#:~:text=Defining%20mental%20health&text=The%20concept%20is%20influenced%20by,to%20set%20and%20fulfil%20goals" class="btn btn-outline-primary" target="_blank">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -209,7 +209,7 @@
                                 family, friends, or a professional can help lighten emotional burdens.
                                 Don’t hesitate to
                                 reach out when you need it most.</p>
-                            <a href="#" class="btn btn-outline-primary">Learn more</a>
+                            <a href="https://everymind.org.au/understanding-mental-health/mental-health/understanding-mental-health-and-wellbeing#:~:text=Defining%20mental%20health&text=The%20concept%20is%20influenced%20by,to%20set%20and%20fulfil%20goals" class="btn btn-outline-primary" target="_blank">Learn more</a>
                         </div>
                     </div>
                 </div>
@@ -224,8 +224,8 @@
                 <div class="column col-md-4">
                     <div class="card">
                         <div class="card-body sharp-corners">
-                            <h5 class="card-title mb-3">NHS Talking Therapies (IAPT)
-                            </h5>
+                            <h3 class="card-title mb-3">NHS Talking Therapies
+                            </h3>
                             <p class="card-text">NHS Talking Therapies provides free,
                                 confidential mental health support for
                                 people dealing
@@ -243,7 +243,7 @@
                 <div class="column col-md-4 mb-3">
                     <div class="card">
                         <div class="card-body sharp-corners">
-                            <h5 class="card-title">Mind UK</h5>
+                            <h3 class="card-title">Mind UK</h3>
                             <p class="card-text">Mind is a leading mental health charity in the UK that
                                 provides information, advice, and support for anyone experiencing a mental health
                                 problem. Visit the Mind website to explore their resources, or
@@ -257,7 +257,7 @@
                 <div class="column col-md-4 mb-3">
                     <div class="card">
                         <div class="card-body sharp-corners">
-                            <h5 class="card-title">Samaritans</h5>
+                            <h3 class="card-title">Samaritans</h3>
                             <p class="card-text">Samaritans is a charity that provides 24/7 emotional
                                 support to anyone struggling to cope, whether you're experiencing a crisis or simply
                                 need someone to talk to. You can call Samaritans anytime on 116 123, for free,
@@ -274,7 +274,7 @@
     </main>
 
     <footer class="mt-auto container">
-        <section id="sociallinks">
+        <section id="sociallinks" class="container">
             <div class="row">
                 <div class="col-12 d-flex justify-content-center">
                     <h3 class="mb-1 mt-4">Stay Connected</h3>
@@ -296,15 +296,13 @@
             </div>
         </section>
 
-
-
-
-
     </footer>
 
     <!-- Bootstrap modal -->
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- First Modal -->
+
+    <div class="modal fade" id="exampleModalToggle" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
@@ -312,23 +310,22 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>
-                        Join my newsletter for the latest updates on my projects,
-                        coding tips, and industry insights delivered straight to your
-                        inbox.
-                    </p>
+                    <p>Join our newsletter for the latest updates on mental health signs, tips and available support</p>
                     <form class="row g-3">
                         <div class="col-lg-6">
                             <label for="inputName" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="inputName">
+                            <input type="text" class="form-control sharp-corners" id="inputName">
                         </div>
                         <div class="col-lg-6">
                             <label for="inputEmail" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="inputEmail">
+                            <input type="email" class="form-control sharp-corners" id="inputEmail">
                         </div>
+
                         <div class="col-12 mb-4">
-                            <button type="submit" class="btn btn-primary">
-                                Sign up!
+                            <!-- Button to open the first modal -->
+                            <button type="button" class="btn btn-outline-primary call-to-action"
+                                data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">
+                                Sign up
                             </button>
                         </div>
                     </form>
@@ -336,6 +333,23 @@
             </div>
         </div>
     </div>
+
+    <!-- Second Modal -->
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+        tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Thank You for Subscribing!</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    You have successfully subscribed to our newsletter. Check your email for confirmation!
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://kit.fontawesome.com/ee48fb666c.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">

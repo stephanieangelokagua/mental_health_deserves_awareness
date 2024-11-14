@@ -75,13 +75,19 @@ Images are an important component of this website because different users have d
 
 ### Manual testing
 
-- A table of manual tests
+Here are the manual tests that were performed on the website
 
 | Test                    | Device     | Result       |
 | ----------------------- | ---------- | ------------ |
 |Check all pages render   | ALL        | Pass         |
 |Check input validation on contact page          | ALL        | Pass         |
-|Check modal works        | Mobile     | Fail         |
+|Check the first modal works        | ALL     | Pass         |
+|Check the second modal works   | ALL        | Pass         |
+|Check the call to action button works   | ALL        | Pass         |
+|Check all links work  | ALL        | Pass         |
+|Check all links open in new tabs   | ALL        | Pass         |
+|Check all images render   | ALL        | Pass         |
+|Check to make sure the navbar works   | ALL        | Pass         |
 
 #### Bugs
 
@@ -90,4 +96,15 @@ Modal did not work on iPhone so i did a,b and c to fix it a now it does after ma
 ## Deployment
 
 - Discuss how you used Git to track your building progress
-- Discuss how to activated Github Pages to make your site live.
+
+During this project, Git was an essential tracking tool used to monitor the progress of the website towards final deployments. Git commits were used to allow version tracking and restoring previous states if needed amongst Git push, Git pull, Git add. These commits were stored and Github was used to store the project and deploy the site.
+
+GitHub was used to deploy the website. These were the steps taken to acheive this:  
+
+1. Login to GitHub account
+2. Navigate to the project repository, mental_health_deserves_awareness
+3. Click the Settings button near the top of the page
+4. In the left-hand menu, find and click on the Pages button
+5. In the Source section, choose 'main' from the drop-down, select branch menu
+6. Select 'root' from the drop-down folder menu
+7. Click 'Save' and after a few moments the project will have been made live and a link is visible at the top of the page
