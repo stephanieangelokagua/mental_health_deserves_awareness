@@ -1,8 +1,8 @@
-# Readme
+# README
 
 ## Mental Health Deserves Awareness
 
-Mental Health Deserves Awareness is a website focused on teaching everyone about Mental Health. Personally, I believe being aware of 
+Mental Health Deserves Awareness is a website focused on teaching users about their mental health. A healthy mind leads to a healthy life and everyone in all spheres of life will benefit from proper education on the subject, making its use cut across young people, career-focused individuals, the ederly and many more. This website is ideal for users with little to no experience on the subject, loved ones of people struggling with their mental wellbeing and users worried about their mental health. The goal of the website is to provide a calming introduction to the subject of mental health with relevant links and resources for further reading. 
 
 Here we write a snappy couple of sentences about our project
 
@@ -91,7 +91,8 @@ Here are the manual tests that were performed on the website
 
 #### Bugs
 
-Modal did not work on iPhone so i did a,b and c to fix it a now it does after manual testing again
+Footer does not extend to full width of the bottom of the page
+Modal allows user subscribe without entering a real email
 
 ## Deployment
 

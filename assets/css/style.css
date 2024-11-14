@@ -36,7 +36,9 @@ h1,h2,h3,#navbar .nav-link{
 
 .button-style{
     border-radius: 0;
-    color: white;
+    background-color: #f9d8c0;
+    color: var(--primary-color);
+    border: none;
 }
 .call-to-action{
     background-color: var(--primary-color);
@@ -63,7 +65,7 @@ h1,h2,h3,#navbar .nav-link{
     border: none;
 }
 
-#signs .card-body {
+#signs .card-body, #support .card-body{
     padding: 1rem 1rem 1rem 0;
 }
 
@@ -78,6 +80,12 @@ h1,h2,h3,#navbar .nav-link{
 
 #support a{
     text-decoration: none;
+    color: #9a312f;
+}
+
+#support a:hover{
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
 .navbar,
@@ -88,5 +96,9 @@ h1,h2,h3,#navbar .nav-link{
 @media (min-width: 1024px) {
     #support .card-body{
         min-height: 434px
+    }
+
+    #jumbotron .img{
+        width: 50%
     }
 }
