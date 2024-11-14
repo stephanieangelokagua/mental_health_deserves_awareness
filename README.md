@@ -1,6 +1,6 @@
-# Demo Markdown Readme
+# Readme
 
-## Project Heading
+## Mental Health Deserves Awareness
 
 Mental Health Deserves Awareness is a website focused on teaching everyone about Mental Health. Personally, I believe being aware of 
 
