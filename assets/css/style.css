@@ -6,6 +6,7 @@
     --secondary-color: #d9ffff;
     --primary-color: #9a312f;
 }
+
 /*General Styles*/
 body{
     font-family: 'Roboto', sans-serif;
@@ -20,6 +21,24 @@ h1,h2,h3,#navbar .nav-link{
     font-family: 'Noto Sans', sans-serif;
 }
 
+#signs .card-body, #support .card-body, #tips .card-body{
+    padding: 1rem 1rem 1rem 0;
+}
+
+.sharp-corners,
+.sharp-corners* {
+    border-radius: 0;
+}
+
+.navbar,
+#sociallinks {
+    background-color: var(--secondary-color);
+}
+
+.card-title{
+    color: var(--primary-color);
+}
+
 /*Navbar Styles*/
 #navbar .nav-link {  
     text-transform: uppercase;
@@ -32,46 +51,39 @@ h1,h2,h3,#navbar .nav-link{
     text-decoration: underline;
 }
 
-/* Header styles*/
 
+/* Header styles*/
+.call-to-action{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 5px 24px;
+    height: 50px;
+    border: none;
+    border-radius: 0;
+
+}
+
+/*Button Style*/
 .button-style{
     border-radius: 0;
     background-color: #f9d8c0;
     color: var(--primary-color);
     border: none;
 }
-.call-to-action{
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    padding: 5px 24px;
-    border: none;
-    border-radius: 0;
 
-}
-/*Footer styles*/
-#sociallinks i{
-    font-size: 20px;
-    color: var(--primary-color);
-}
+/*Signs section styles*/
 #signs .card {
     border-style: none;
 }
 
-#tips.card{
+/*Tips section styles*/
+#tips .card{
     border: none;
 }
 
+/*Support section styles*/
 #support .card{
     border: none;
-}
-
-#signs .card-body, #support .card-body{
-    padding: 1rem 1rem 1rem 0;
-}
-
-.sharp-corners,
-.sharp-corners* {
-    border-radius: 0;
 }
 
 #support .form-control, #signs img, #tips img, #tips .card{
@@ -88,17 +100,17 @@ h1,h2,h3,#navbar .nav-link{
     text-underline-offset: 4px;
 }
 
-.navbar,
-#sociallinks {
-    background-color: var(--secondary-color);
+/*Footer styles*/
+#sociallinks i{
+    font-size: 20px;
+    color: var(--primary-color);
 }
 
-@media (min-width: 1024px) {
-    #support .card-body{
-        min-height: 434px
+/*Media queries*/
+
+@media screen and (min-width: 1024px) {
+    #tips .card-body{
+        min-height: 238px
     }
 
-    #jumbotron .img{
-        width: 50%
-    }
 }
