@@ -59,7 +59,7 @@ h1,h2,h3,#navbar .nav-link{
     border: none;
 }
 
-#resources .card{
+#support .card{
     border: none;
 }
 
@@ -72,8 +72,12 @@ h1,h2,h3,#navbar .nav-link{
     border-radius: 0;
 }
 
-#resources .form-control, #signs img, #tips img, #tips .card{
+#support .form-control, #signs img, #tips img, #tips .card{
     border-radius: 0;
+}
+
+#support a{
+    text-decoration: none;
 }
 
 .navbar,
@@ -82,7 +86,7 @@ h1,h2,h3,#navbar .nav-link{
 }
 
 @media (min-width: 1024px) {
-    .text-container {
-      line-height: 30px;
+    #support .card-body{
+        min-height: 434px
     }
 }
