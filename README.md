@@ -110,14 +110,20 @@ This section was designed to allow users to learn different signs of mental heal
     
 </details>
 
+
+#### Tips for Mental Health Wellbeing
+This section was designed to allow users to discover tips that promote mental wellbeing and it also incorporated images to serve the needs of visual learners
+
 <details>
-    <summary></summary>
+    <summary>Tips for mental wellbeing on tablet view</summary>
     <img src="assets/images/support.png">
     
 </details>
 
+#### Footer: Social Media links
+This section focuses on showcasing 3 social media websites users can connect to to stay updated however due to the fictional nature of the project the links take the users to the login/sign up page for these platforms
 <details>
-    <summary></summary>
+    <summary>Social media links in the footer in mobile view</summary>
     <img src="assets/images/footer.png">
     
 </details>
@@ -152,9 +158,42 @@ This section was designed to allow users to learn different signs of mental heal
 
 ### Validator testing
 
-- HTML Testing [HTML Validator](https://validator.w3.org/) you must have NO errors (warnings okay) and test all pages
-- CSS Testing [CSS Validator](https://jigsaw.w3.org/css-validator/)
-- Lighthouse Testing
+#### HTML Testing 
+
+[HTML Validator](https://validator.w3.org/) was used to test the HTML and there were no errors or warnings
+
+<details>
+    <summary>HTML validation results</summary>
+    <img src="assets/images/htmlval.png">
+    
+</details>
+
+
+#### CSS Testing 
+
+[CSS Validator](https://jigsaw.w3.org/css-validator/) was used to test the CSS and there were no errors or warnings
+
+<details>
+    <summary>CSS testing results</summary>
+    <img src="assets/images/cssval.png">
+    
+</details>
+
+#### Lighthouse Testing
+
+Lighthouse was used in Chrome Dev tools to check the performance, accessibility, progressive and SEO of the website based on mobile and desktop view
+
+<details>
+    <summary>Lighthouse testing results on desktop</summary>
+    <img src="assets/images/lighthoused.png">
+    
+</details>
+<br>
+<details>
+    <summary>Lighthouse testing results on mobile</summary>
+    <img src="assets/images/lighthousem.png">
+    
+</details>
 
 ### Manual testing
 
@@ -174,8 +213,16 @@ Here are the manual tests that were performed on the website
 
 #### Bugs
 
-Footer does not extend to full width of the bottom of the page
-Modal allows user subscribe without entering a real email
+- Footer does not extend to full width of the bottom of the page for screen sizes bigger than mobile
+- Modal allows user subscribe without entering a valid email address
+
+## Leverage of AI: Open AI and Dall E
+
+Due to the time constraint and sensitivity of the topic, Open AI was an impactful tool used in development to produce an effective and efficient website for the topic.
+
+A few examples of areas where good prompt engineering and the use of AI were notable include:
+
+
 
 ## Deployment
 
