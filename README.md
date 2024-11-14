@@ -181,7 +181,7 @@ This section focuses on showcasing 3 social media websites users can connect to 
 
 #### Lighthouse Testing
 
-Lighthouse was used in Chrome Dev tools to check the performance, accessibility, progressive and SEO of the website based on mobile and desktop view
+Lighthouse was used in Chrome Dev tools to check the performance, accessibility, progressive and SEO of the website based on mobile and desktop view and the results were all above 70% on both views, with desktop performing slightly higher than mobile.
 
 <details>
     <summary>Lighthouse testing results on desktop</summary>
@@ -222,11 +222,33 @@ Due to the time constraint and sensitivity of the topic, Open AI was an impactfu
 
 A few examples of areas where good prompt engineering and the use of AI were notable include:
 
-
+<details>
+    <summary>Choosing a body text using Open AI</summary>
+    <img src="assets/images/aiifonts.png">
+    
+</details>
+<br>
+<details>
+    <summary>Generating images using Open AI Dall E</summary>
+    <img src="assets/images/aiimages.png">
+    
+</details>
+<br>
+<details>
+    <summary>Debugging code using Open AI Dall E</summary>
+    <img src="assets/images/debugaii.png">
+    
+</details>
+<br>
+<details>
+    <summary>Generating sensitive content with Open AI</summary>
+    <img src="assets/images/aiicontent.png">
+    
+</details>
+<br>
+Overall, the use of AI was positive and effective in designing the project
 
 ## Deployment
-
-- Discuss how you used Git to track your building progress
 
 During this project, Git was an essential tracking tool used to monitor the progress of the website towards final deployments. Git commits were used to allow version tracking and restoring previous states if needed amongst Git push, Git pull, Git add. These commits were stored and Github was used to store the project and deploy the site.
 
